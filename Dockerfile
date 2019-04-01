@@ -34,5 +34,3 @@ RUN set -x \
 #Giving Read permission for others for log directory 
 RUN chmod -R 755 /var/log/kafka \
     && chmod -R 755 /var/log/confluent
-
-RUN apt-get install -y --only-upgrade docker-engine
